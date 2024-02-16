@@ -35,7 +35,7 @@ This project is a movie database website built using Node.js for the backend and
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/shivamcalis1998/propftx-movie-frontend.git
+   git clone https://github.com/shivamcalis1998/propftx-full-stack.git
    ```
 2. **Navigate to the project directory**:
    ```bash
