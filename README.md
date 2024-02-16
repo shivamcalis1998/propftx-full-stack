@@ -57,6 +57,6 @@ This project is a movie database website built using Node.js for the backend and
 8. **Open your browser** and visit [http://localhost:3000](http://localhost:3000) to access the website.
 
 ## Contributors
-- [shivam swami](https://github.com/shivamvalis1998)
+- [shivam swami](https://github.com/shivamcalis1998)
 
 
