@@ -10,6 +10,7 @@ This project is a movie database website built using Node.js for the backend and
 - **Search**: Easily find movies by searching for titles or directors.
 - **CRUD Operations**: Perform Create, Read, Update, and Delete operations on movie entries directly from the frontend.
 - **Database**: I use MongoDb.
+- **Skeleton Loading**: Until Get request not full-filled skelton shadow will gonna show.
 
 ## Technologies Used
 - **Backend**:
