@@ -1,24 +1,29 @@
 # Movie Database Website
 
 ## Overview
-This project is a movie database website built using Node.js for the backend and Redux, Axios for the frontend. The website allows users to browse through a collection of movies, with features including pagination, filtering, sorting, and search by title or director.
+This project is a movie database website built using Node.js for the backend and Redux, Axios for the frontend. The website allows users to browse through a collection of movies, with features including pagination, filtering, sorting, search by title or director, and CRUD operations that can be performed from the frontend.
 
 ## Features
 - **Pagination**: Browse through multiple pages of movie listings.
 - **Filtering**: Narrow down the movie selection based on various criteria.
 - **Sorting**: Arrange movies by different attributes such as release date or rating.
 - **Search**: Easily find movies by searching for titles or directors.
-
+- **CRUD Operations**: Perform Create, Read, Update, and Delete operations on movie entries directly from the frontend.
+- **Database**: I use MongoDb.
+- 
 ## Technologies Used
 - **Backend**:
   - Node.js
   - Express.js
-  - Render (for deployment)
+  - CRUD Operations
 
 - **Frontend**:
   - Redux (for state management)
   - Axios (for making HTTP requests)
-  - Versel (for deployment)
+
+## Deployment
+- **Backend Deployment**: Render
+- **Frontend Deployment**: Vercel
 
 ## How to Run
 1. **Clone the repository**: 
@@ -52,8 +57,6 @@ This project is a movie database website built using Node.js for the backend and
 8. **Open your browser** and visit [http://localhost:3000](http://localhost:3000) to access the website.
 
 ## Contributors
-- [Your Name](https://github.com/yourusername)
-- [Other Contributor](https://github.com/otherusername)
+- [Your Name](https://github.com/shivamvalis1998)
 
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
