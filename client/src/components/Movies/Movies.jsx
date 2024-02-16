@@ -28,10 +28,10 @@ const Movies = () => {
   const [loading, setLoading] = useState(true); // Local loading state
 
   useEffect(() => {
-    setLoading(true); // Set loading to true when starting the data fetching process
+    setLoading(true); 
     dispatch(getMoviesData(query))
-      .then(() => setLoading(false)) // Set loading to false when data fetching is completed
-      .catch(() => setLoading(false)); // Set loading to false in case of any errors
+      .then(() => setLoading(false)) 
+      .catch(() => setLoading(false)); 
   }, [dispatch, query]);
 
   const handleQuery = (e) => {
@@ -83,7 +83,7 @@ const Movies = () => {
               onChange={handleQuery}
               className="sortTimeSelect"
             >
-              <option value="">Select Sort</option>
+              <option value="">Select Sort By Date</option>
               <option value="asc">Ascending</option>
               <option value="desc">Descending</option>
             </select>
@@ -92,7 +92,7 @@ const Movies = () => {
           <div>
             <input
               type="text"
-              placeholder="Search by title"
+              placeholder="Search by title And Director"
               name="search"
               value={query.search}
               onChange={handleQuery}
