@@ -28,19 +28,11 @@ const Movies = ({ token }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-<<<<<<< HEAD
     setLoading(true);
     dispatch(getMoviesData(query, token))
       .then(() => setLoading(false))
       .catch(() => setLoading(false));
   }, [dispatch, token, query]);
-=======
-    setLoading(true); 
-    dispatch(getMoviesData(query))
-      .then(() => setLoading(false)) 
-      .catch(() => setLoading(false)); 
-  }, [dispatch, query]);
->>>>>>> db92d56801f3c8bc2315f882aa25712e2c139248
 
   const handleQuery = (e) => {
     const { name, value } = e.target;
