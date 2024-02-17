@@ -4,13 +4,13 @@ const connectMongoDb = require("./database/database");
 const port = process.env.PORT || 5000;
 const cors = require("cors");
 
-const movieRoute = require("./routes/movieRoute");
-const authRoute = require("./routes/authRoute");
+const authRoute = require("./routes/authRoutes");
+const bookRoute = require("./routes/bookRoutes");
 app.use(cors());
 app.use(express.json());
 
 app.use("/", authRoute);
-app.use("/movies", movieRoute);
+app.use("/books", bookRoute);
 
 app.listen(port, async () => {
   console.log(`app is running on port ${port}`);

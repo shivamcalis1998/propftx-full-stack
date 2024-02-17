@@ -20,8 +20,8 @@ authRoute.post("/signup", async (req, res) => {
     const hashedPassword = await bcrypt.hash(password, 10);
     const newUser = { email, password: hashedPassword };
 
-    if (email.includes("admin")) {
-      newUser.role = "ADMIN";
+    if (email.includes("creator")) {
+      newUser.role = "CREATOR";
     }
 
     const user = new UserModel(newUser);
@@ -57,12 +57,14 @@ authRoute.post("/login", async (req, res) => {
       { expiresIn: "1h" }
     );
 
-    res.status(200).json({
-      message: "login succesfully",
-      token,
-      role: existingUser.role,
-      userId: existingUser._id,
-    });
+    res
+      .status(200)
+      .json({
+        message: "login succesfully",
+        token,
+        role: existingUser.role,
+        userId: existingUser._id,
+      });
   } catch (error) {
     res.status(500).json({ message: "something went wrong" });
   }
