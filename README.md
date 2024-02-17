@@ -13,6 +13,9 @@ This project is a movie database website built using Node.js for the backend and
 - **CRUD Operations**: Perform Create, Read, Update, and Delete operations on movie entries directly from the frontend.
 - **Database**: I use MongoDb.
 - **Skeleton Loading**: Until Get request not full-filled skelton shadow will gonna show.
+  
+## Screenshot
+![Movie Database Website]([path/to/your/screenshot.png](https://drive.google.com/file/d/15gK5cLCNRqkG8xmuPmTi4piUrf1_aHRs/view?usp=sharing))
 
 ## Technologies Used
 
