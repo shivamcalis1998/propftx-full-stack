@@ -15,7 +15,8 @@ This project is a movie database website built using Node.js for the backend and
 - **Skeleton Loading**: Until Get request not full-filled skelton shadow will gonna show.
   
 ## Screenshot
-![Movie Database Website]([path/to/your/screenshot.png](https://drive.google.com/file/d/15gK5cLCNRqkG8xmuPmTi4piUrf1_aHRs/view?usp=sharing))
+![Screenshot (603)](https://github.com/shivamcalis1998/propftx-full-stack/assets/114653221/643250fa-858d-4fb7-92fa-40ea0b5fe8d8)
+![Screenshot (604)](https://github.com/shivamcalis1998/propftx-full-stack/assets/114653221/572f6d2e-b691-4402-a0dc-35629ccc67b3)
 
 ## Technologies Used
 
